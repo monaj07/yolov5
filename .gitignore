@@ -17,15 +17,13 @@
 *.mov
 *.MOV
 *.avi
-*.data
-*.json
 
 *.cfg
 !cfg/yolov3*.cfg
 
 storage.googleapis.com
 runs/*
-data/*
+data/labels
 !data/images/zidane.jpg
 !data/images/bus.jpg
 !data/coco.names
